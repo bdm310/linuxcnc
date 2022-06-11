@@ -952,8 +952,8 @@ hal_bb_gpio-objs  :=			\
     $(MATHSTUB)
 obj-$(CONFIG_HAL_PI_GPIO) += hal_pi_gpio.o
 hal_pi_gpio-objs := 				\
-    hal/drivers/hal_pi_gpio.o 		\
-    hal/drivers/cpuinfo.o 		\
+    hal/drivers/pi/hal_pi_gpio.o 		\
+    hal/drivers/pi/cpuinfo.o 		\
     $(MATHSTUB)
 endif
 
